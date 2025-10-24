@@ -10,3 +10,4 @@ where is the docker
 here it is running;
 where is the docker
 here it is running; from users where subscribed = true;
+it is running; from users where subscribed = true;
