@@ -8,3 +8,5 @@ Select name, email from users where subscribed = true;ct name, email from users 
 Select {{ source('', '') }}
 where is the docker
 here it is running;
+where is the docker
+here it is running; from users where subscribed = true;
