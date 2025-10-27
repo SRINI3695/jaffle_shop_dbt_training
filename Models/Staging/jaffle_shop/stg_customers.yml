@@ -1,16 +1,14 @@
 models:
   - name: stg_customers
-  columns:
-    - name: name
-    data_tests:
-        - unique
-        - not_null
+    columns:
+      - name: name
+        data_tests:
+          - unique
+          - not_null
         
-  - name:  stg_orders
-  columns:
-    - name: id
-    data_tests:
-       - unique
-       - not_null
-       
-        
+  - name: stg_orders
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
