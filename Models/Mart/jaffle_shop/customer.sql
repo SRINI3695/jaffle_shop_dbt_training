@@ -16,6 +16,3 @@ customer_orders as (
     left join orders on customers.id = orders.customer
     group by customers.id, customers.name
 )
-
-select * from customer_orders
-where name like 'Srini%'
