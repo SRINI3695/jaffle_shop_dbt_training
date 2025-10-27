@@ -1,16 +1,7 @@
 models:
   - name: stg_customers
-<<<<<<< HEAD
-  columns:
-    - name: NAME
-    data_tests:
-        - unique
-        - not_null
-       
-        
-=======
     columns:
-      - name: name
+      - name: id
         data_tests:
           - unique
           - not_null
@@ -21,4 +12,4 @@ models:
         data_tests:
           - unique
           - not_null
->>>>>>> 4440bf2611537c4771afcbdc1531c4f009e0071f
+
