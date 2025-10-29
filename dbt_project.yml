@@ -39,9 +39,7 @@ models:
   jaffle_shop:
     # Config for models in the Staging folder
     Staging:
-      jaffle_shop:
-        stg_customers:
-          +materialized: table
-        stg_orders:
           +materialized: view
+    Mart:
+          +materialized: table
 

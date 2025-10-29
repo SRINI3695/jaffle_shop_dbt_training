@@ -7,9 +7,6 @@ orders as (
     select * from {{ ref('stg_orders') }}
 ),
 
-employee as (
-    select * from {{ ref('dbt_training.seeds') }}
-)
 
 customer_orders as (
     select
