@@ -1,0 +1,5 @@
+packages:
+  - package: tnightengale/dbt_meta_testing
+    version: 0.3.6
+  - package: gitlabhq/snowflake_spend
+    version: 1.2.0
