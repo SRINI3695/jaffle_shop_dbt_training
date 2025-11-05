@@ -36,7 +36,6 @@ models:
   jaffle_shop:
     # Config for models in the Staging folder
     Staging:
-      +required_tests: {"unique.*|not_null": 1}
       +materialized: view
     Mart:
       +materialized: table

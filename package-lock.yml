@@ -2,10 +2,4 @@ packages:
 - package: tnightengale/dbt_meta_testing
   name: dbt_meta_testing
   version: 0.3.6
-- package: fishtown-analytics/dbt_utils
-  name: dbt_utils
-  version: 0.7.0
-- package: gitlabhq/snowflake_spend
-  name: snowflake_spend
-  version: 1.2.0
-sha1_hash: 95ce5144be65d225d3488484ef6511e1f7da4f1a
+sha1_hash: 3b306c26545008f1d7c9f1952c9669ec66137584
